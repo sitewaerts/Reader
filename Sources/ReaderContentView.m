@@ -35,20 +35,6 @@
 @end
 
 @implementation ReaderContentView
-{
-	UIView *theContainerView;
-
-	UIUserInterfaceIdiom userInterfaceIdiom;
-
-	ReaderContentPage *theContentPage;
-
-	ReaderContentThumb *theThumbView;
-
-	CGFloat realMaximumZoom;
-	CGFloat tempMaximumZoom;
-
-	BOOL zoomBounced;
-}
 
 #pragma mark - Constants
 
